@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloudy_</title>
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="Style.css">
+   
+
+</head>
+<body>
+    <!-- form is for search and button displying  -->
+    <form action="" id="search-form">
+        <!-- <label for="">search</label> -->
+        <input type="search" placeholder="Enter City Name" id="search-input" required="" autocomplete="off" >
+        <br> <br>
+        <button id="search-button">Search</button>
+    </form>
+
+    <!-- form here we making container -->
+    <main id="app-container">
+    <!-- this division is for location  -->
+       <div id="location">
+            <p>-----</p>
+       </div> 
+
+       <!-- this below div is for temprature -->
+       <div id="temp">
+            <img id="temp-icon" src="img/sun.png" alt="not-found">
+            <p><span id="temp-value">-----</span> <span id="temp-unit"> &#176c </span></p>
+       </div>
+
+       <!-- This division is for climate names -->
+       <div id="climate">
+            <p>-----</p>
+       </div>
+
+    </main>
+
+
+    
+<script src="page.js"></script>
+</body>
+</html>
