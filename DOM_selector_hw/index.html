@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM_SELECTERS</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <!-- <link rel="icon" href=""> -->
+</head>
+<body>
+    <h1>Dom -Document object module selector</h1>
+    <h2 id="head2"></h2>
+
+    <p class="parag">
+        where console.log(""); method used to print the in console screen <br>
+        and  document.write(""); method used to print  the in document page <br>
+        there are types of dom selectors in javaScript : <br>
+        1. Id selector: document.getElementById("head2"); <br>
+        2. class selector:  document.getElementsByClassName("parag")[0].
+            it's also retruns array of elements hence written [0] index <br>
+        3. tag selector: document.getElementsByTagName("h3")[0].innerHTML="change";<br>
+        4. query selector and query selctor all : <br>
+        document.querySelector("#name") <br>
+        document.querySelectorAll("#name") <br>
+        5. to create any element in javaScript use : document.createElement("li"); any element you create <br>
+
+    </p>
+
+    <h3>Selecting by tag name it's also return array hence [0]: document.getElementsByTagName("h3")[0]</h3>
+
+    <div class="query"> selecting using query selector 
+        it also return array of elements hecne always write index [0] etc.. <br>
+        and also it needs to access id= # and class= . (dot) <br>
+        eg: document.querySelector(".query") 
+    </div>
+
+    <div id="name"><p> selecting using query slecotor but id name</p></div>
+
+
+    <ul id="unorder">
+        <li>to create any element using dom in javaScript use: <br>
+            document.creatElement("li");</li>
+
+            <li>document.createElement("li");</li>
+
+    </ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
