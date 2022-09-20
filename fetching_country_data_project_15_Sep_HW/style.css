@@ -1,0 +1,58 @@
+body{
+    background:linear-gradient(to right, rgb(187, 124, 124),rgb(208, 217, 39));
+}
+h1{
+    color: rgba(205, 236, 158, 0.962);
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 3px;
+
+}
+
+.country{
+    background-color: rgb(198, 214, 151);
+    font-size: 25px;
+    font-family: cursive;
+    text-shadow: 2px 1px;
+    color:white;
+    align-items: center;
+}
+
+#capital{
+    color:white;
+    font-size: 20px;
+    font-weight: 400;
+}
+#region{
+    color:white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.flag{
+    background: linear-gradient(to right, rgb(203, 203, 211),rgb(182, 127, 127));
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 2px 1px;
+    color:yellow;
+}
+
+.region{
+    background: linear-gradient(to right, pink,yellow);
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 2px 1px;
+    color:black;
+}
+
+.capital{
+    background: linear-gradient(to right, rgb(160, 214, 113),rgb(238, 238, 196));
+
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 2px 1px;
+    color:red;
+}
+
