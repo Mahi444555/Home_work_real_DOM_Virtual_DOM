@@ -1,0 +1,39 @@
+Find out difference between Real and Virtual DOM.
+: DOM=Document Object Model
+: BOM=BROWSER OBJECT Model
+: WOM=WINDOWS OBJECT Model
+
+: selector: document.getElementByID()
+	:document.getElementByTagName()
+	:document.getElementByClassName()
+	:document.querySelector("#ID_name")
+	:document.querySelectorAll("");
+
+:DOM is nothing but whaterever comes under the margin of document screen it's DOM screen 
+: where we are displays all the things in that section 
+: There are three types of module: 1.WOM (WINDOW OBJECT MODULE) 2.BOM (BROWSER OBJECT MODULE) 3.DOM(DOCUMENT OBJECT MODULE)
+
+: IN REACT THRE ARE SOME IMPORTANT : API'S OR COMPONENT: 
+	1.component : header,footer,sidebar,section,division called component 
+	2.props	: we pass them as a agrument to pass the data throught them they used to managed the data
+	3.state	: it reloads only perticular tab or section when user intract with web-pages
+	4.jsx	: javaScript Syntax extensions
+	5.virtual dom	: copy of real dom
+
+: So, DOM is real docuemnt where the all the changes saved it's a original page 
+:     Virtual DOM : is copy of Real-DOM 
+:     whrer, virtual dom it's appers for the thired party user or custormer where if user save there information in 
+		perticular section/component then he/she only interact with virtual dom not directly real dom 
+		hence, in that process only perticular section or component will get reload and not entire web_page 
+		and after whatever changes are done that get saved on real dom this makes the our website faster than
+		others, hence... using virtual dom it's makes our website faster...
+
+
+
+
+*virtual dom:
+-VDOM is the virtual representation of Real DOM
+-React update the state changes in Virtual DOM first and then it syncs with Real DOM
+-Virtual DOM is just like a blueprint of a machine, can do the changes in the blueprint but those changes will not directly apply to the machine.
+-Virtual DOM is a programming concept where a virtual representation of a UI is kept in memory synced with “Real DOM ” by a -library such as ReactDOM and this process is called reconciliation
+-Virtual DOM makes the performance faster, not because the processing itself is done in less time. The reason is the amount of changed information – rather than wasting time on updating the entire page, you can dissect it into small elements and interactions
